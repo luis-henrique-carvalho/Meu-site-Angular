@@ -42,8 +42,6 @@ html {
 body {
   background: gray;
   background-size:cover;
-  
-  
   color: var(--color-white);
   line-height: 1.7;
 

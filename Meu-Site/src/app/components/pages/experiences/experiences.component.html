@@ -1,0 +1,44 @@
+<section id="experience">
+  <h5>Quais</h5>
+  <h2>Minhas Experiencias</h2>
+
+  <div class="container experience__container">
+    <div>
+      <h3>Desenvolvedor Front-end</h3>
+
+      <div class="experience__content">
+        <article
+          *ngFor="let experience of experiences"
+          [ngClass]="experience.class__article"
+        >
+          <i [ngClass]="experience.class__icon"></i>
+          <div>
+            <h4>{{ experience.name }}</h4>
+            <small [ngClass]="experience.class__smal">{{
+              experience.name__exp
+            }}</small>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div>
+      <h3>Designer Gráfico</h3>
+
+      <div class="experience__content">
+        <article
+          *ngFor="let designer of designers"
+          [ngClass]="designer.class__article"
+        >
+          <i [ngClass]="designer.class__icon"></i>
+          <div>
+            <h4>{{ designer.name }}</h4>
+            <small [ngClass]="designer.class__smal">{{
+              designer.name__exp
+            }}</small>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
