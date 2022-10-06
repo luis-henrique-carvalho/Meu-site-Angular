@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/pages/header/header.component';
 import { CurriculoComponent } from './components/pages/header/curriculo/curriculo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { AboutComponent } from './components/pages/about/about.component';
 
 
 
@@ -17,7 +18,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AppComponent,
     HeaderComponent,
     CurriculoComponent,
-    NavbarComponent
+    NavbarComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

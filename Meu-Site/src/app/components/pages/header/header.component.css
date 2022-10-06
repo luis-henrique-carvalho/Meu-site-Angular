@@ -26,14 +26,6 @@ header {
   font-size: 1.3rem;
 }
 
-
-/* .header__socials::after {
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
-} */
-
 .email {
   font-size: 1.3rem;
 }
@@ -57,7 +49,6 @@ header {
   /*centraliza com 50 - a metade da largura*/
   left: calc(50% - 13rem);
   margin-top: 3rem;
-  
   padding: 2rem 1.5rem 1.5rem 1.5rem;
 }
 
@@ -75,6 +66,7 @@ a.scroll__down {
   color: var(--color-bg);
   border: 1px solid transparent;
   border-radius: 0.5rem;
+  text-decoration: none;
 }
 
 a.scroll__down:hover {
