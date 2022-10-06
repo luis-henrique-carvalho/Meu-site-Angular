@@ -1,0 +1,22 @@
+<section id="portifolio">
+  <h5>Meus Projetos</h5>
+  <h2>portifolio</h2>
+
+  <div  class="container portfolio__container">
+    <article *ngFor="let item of itens" class="portfolio__item">
+      <div class="portfolio__item-image">
+        <img src="{{ item.srcImg }}" alt="{{ item.title }}" />
+      </div>
+      <h3>{{ item.title }}</h3>
+      <small>{{ item.small }}</small>
+      <div class="portfolio__item-cta">
+        <a href="{{ item.github }}" class="btn" target="_blank" rel="noreferer">
+          {{ item.button }}
+        </a>
+        <a href="{{ item.demo }}" class="btn btn-primary" target="_blank" rel="noreferer">
+          Ver Demonstração
+        </a>
+      </div>
+    </article>
+  </div>
+</section>

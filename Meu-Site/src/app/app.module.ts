@@ -11,6 +11,8 @@ import { CurriculoComponent } from './components/pages/header/curriculo/curricul
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ExperiencesComponent } from './components/pages/experiences/experiences.component';
+import { PortifolioComponent } from './components/pages/portifolio/portifolio.component';
+
 
 
 
@@ -21,7 +23,8 @@ import { ExperiencesComponent } from './components/pages/experiences/experiences
     CurriculoComponent,
     NavbarComponent,
     AboutComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    PortifolioComponent,
   ],
   imports: [
     BrowserModule,

@@ -51,6 +51,10 @@ h4 {
   color: var(--color-bg);
 }
 
+.small {
+  color: var(--color-light);
+}
+
 
 /* ======= MEDIOS DEVICES ======== */
 @media screen and (max-width: 1024px) {
