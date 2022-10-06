@@ -1,0 +1,37 @@
+<nav>
+  <a
+    href="#"
+    (click)="activeNav('#')"
+    [ngClass]="active === '#' ? 'active' : ''"
+  >
+    <i class="bi bi-house-door-fill"></i
+  ></a>
+  <a
+    href="#about"
+    (click)="activeNav('#about')"
+    [ngClass]="active === '#about' ? 'active' : ''"
+  >
+    <i class="bi bi-file-earmark-person"></i
+  ></a>
+  <a
+    href="#experience"
+    (click)="activeNav('#experience')"
+    [ngClass]="active === '#experience' ? 'active' : ''"
+  >
+    <i class="bi bi-clipboard-data-fill"></i
+  ></a>
+  <a
+    href="#portifolio"
+    (click)="activeNav('#portifolio')"
+    [ngClass]="active === '#portifolio' ? 'active' : ''"
+  >
+    <i class="bi bi-journal-bookmark-fill"></i
+  ></a>
+  <a
+    href="#contact"
+    (click)="activeNav('#contact')"
+    [ngClass]="active === '#contact' ? 'active' : ''"
+  >
+    <i class="bi bi-envelope-plus-fill"></i>
+  </a>
+</nav>
