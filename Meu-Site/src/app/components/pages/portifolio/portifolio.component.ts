@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Itens } from 'src/app/itens';
+import { Itens } from 'src/app/Itens';
 
 @Component({
   selector: 'app-portifolio',
