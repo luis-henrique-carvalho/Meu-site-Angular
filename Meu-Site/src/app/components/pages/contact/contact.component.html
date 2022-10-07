@@ -38,7 +38,7 @@
       </article>
     </div>
 
-    <form action="">
+    <form (submit)="sendEmail($event)">
       <input type="text" name="name" placeholder="Seu Nome Completo" required />
       
       <input type="email" name="email" placeholder="Seu E-mail" required />
