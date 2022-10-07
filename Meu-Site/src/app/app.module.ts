@@ -12,6 +12,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ExperiencesComponent } from './components/pages/experiences/experiences.component';
 import { PortifolioComponent } from './components/pages/portifolio/portifolio.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -25,6 +27,8 @@ import { PortifolioComponent } from './components/pages/portifolio/portifolio.co
     AboutComponent,
     ExperiencesComponent,
     PortifolioComponent,
+    ContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
