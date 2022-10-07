@@ -1,7 +1,8 @@
 header {
   padding-top: 7em;
   height: 100vh;
-  overflow: auto;
+  overflow-y: scroll;
+  
 }
 
 .header__container {
