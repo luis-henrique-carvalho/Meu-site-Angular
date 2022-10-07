@@ -1,7 +1,7 @@
 header {
   padding-top: 7em;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .header__container {
@@ -88,9 +88,12 @@ a.scroll__down:hover {
     height: 100vh;
   }
 
+ 
   .header__socials,
   .scroll__down,
   a.scroll__down {
     display: none;
   }
 }
+
+
